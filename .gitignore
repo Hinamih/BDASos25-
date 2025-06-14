@@ -1,0 +1,32 @@
+# Datenordner – Rohdaten ausschließen
+data/
+!data/README.md
+
+# Jupyter Notebook-Checkpoints und temporäre Ausgaben
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python-Bytecode und Cache-Dateien
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen
+env/
+.venv/
+venv/
+
+# Umgebungsvariablen-Dateien
+.env
+.env.*
+
+# Temporäre Dateien und Logdateien
+*.log
+*.tmp
+
+# Editor- und Projektordner
+.vscode/
+.idea/
+
+# Systemdateien (macOS / Windows)
+.DS_Store
+Thumbs.db
